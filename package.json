@@ -1,0 +1,56 @@
+{
+  "name": "@henrikhaugboelle/tawk-web",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.2",
+    "apollo-client": "^2.1.0",
+    "apollo-link": "^1.0.5",
+    "apollo-link-batch-http": "^1.0.2",
+    "apollo-link-error": "^1.0.2",
+    "apollo-link-ws": "^1.0.2",
+    "apollo-utilities": "^1.0.3",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "date-fns": "^1.29.0",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "immutability-helper": "^2.6.0",
+    "local-storage": "^1.4.2",
+    "lodash.debounce": "^4.0.8",
+    "lodash.get": "^4.4.2",
+    "polished": "^1.9.0",
+    "randomstring": "^1.1.5",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.1",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.0.17",
+    "regenerator-runtime": "^0.11.0",
+    "slugify": "^1.2.9",
+    "styled-components": "^2.2.4",
+    "styled-media-query": "^2.0.1",
+    "subscriptions-transport-ws": "^0.9.4",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "lint": "eslint src"
+  },
+  "engines": {
+    "node": "^v8.9.0",
+    "npm": "^5.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+export default {
+  WEB: true,
+  API_PATH: process.env.REACT_APP_API_PATH,
+  GRAPHQL_PATH: process.env.REACT_APP_GRAPHQL_PATH,
+  GRAPHQL_SUBSCRIPTIONS_PATH: process.env.REACT_APP_GRAPHQL_SUBSCRIPTIONS_PATH,
+}
